@@ -9,3 +9,6 @@ baseConfig.output.local.chunkFilename = '[id].ckunk.js';
 
 2、npm run dev 启动后台代码
 3、npm run dev-client 启动前端代码
+
+
+
