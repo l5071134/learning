@@ -79,7 +79,6 @@ mysql5.6增加，可以在索引遍历过程中，对索引中包含的字段先
 mysql锁的各类：全局锁、表级锁、行级锁
 #### 全局锁
 使用场景，做逻辑备份
-
 FTWRL命令：Flush tables with read lock;
 
 #### 表级锁
