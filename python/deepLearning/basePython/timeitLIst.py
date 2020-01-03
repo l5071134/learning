@@ -41,6 +41,11 @@ def t6():
     for i in range(10000):
         li.insert(0, i)
 
+def t7():
+    li = []
+    for i in range(10000):
+        li.append(i)
+
 timer1 = Timer("test1()", "from __main__ import test1")
 print("append(): ", timer1.timeit(1000))
 
@@ -57,4 +62,7 @@ timer5 = Timer("t5()", "from __main__ import t5")
 print("extend(): ", timer5.timeit(1000))
 
 timer6 = Timer("t6()", "from __main__ import t6")
-print("extend(): ", timer6.timeit(1000))
+print("insert(): ", timer6.timeit(1000))
+
+timer6 = Timer("t6()", "from __main__ import t6")
+print("append(): ", timer6.timeit(1000))
