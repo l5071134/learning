@@ -1,0 +1,14 @@
+yapi二次开发
+
+1、在ykit.config.js中增加如下代码
+
+baseConfig.output.local.path = 'prd';
+baseConfig.output.local.publicPath = '';
+baseConfig.output.local.filename = '[name][ext]';
+baseConfig.output.local.chunkFilename = '[id].ckunk.js';
+
+2、npm run dev 启动后台代码
+3、npm run dev-client 启动前端代码
+
+
+
